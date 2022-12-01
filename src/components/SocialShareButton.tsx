@@ -139,6 +139,7 @@ export default class SocialShareButton<LinkOptions> extends Component<
         onClick={this.handleClick}
         ref={forwardedRef}
         style={newStyle}
+        className={rest?.className || undefined}
       >
         {children}
       </button>
